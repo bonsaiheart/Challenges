@@ -18,7 +18,7 @@ def reverse(s):
     for i in s:
         str = i + str
         print(i)
-        print (str)# damn jsut trying to see whats going on here.  omg i finally understand.  str starts at just "i", next passthru is the "last i" (which is now "str") PLUS the new i.
+        print (str)# damn jsut trying to see whats going on here.  omg i finally understand.  str starts at just "i", next passthru is the "previous i" (which is now "str") PLUS the new i.
     return str
 
 
